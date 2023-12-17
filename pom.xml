@@ -15,7 +15,8 @@
 	<description>Microservices Demo Project</description>
 	<modules>
 		<module>twitter-to-kafka-service</module>
-	</modules>
+        <module>app-config-data</module>
+    </modules>
 	<packaging>pom</packaging>
 
 	<properties>

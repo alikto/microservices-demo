@@ -1,0 +1,8 @@
+version: '3.7'
+
+networks:
+  application:
+    # bridge: containers on the same bridge can communicate, else cannot directly communicate
+    # by default can only access each other by ip addresses
+    # by defining a bridge, can communicate over hostname
+    driver: bridge
